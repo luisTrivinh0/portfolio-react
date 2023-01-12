@@ -1,0 +1,76 @@
+@use '../variables'
+@use '../mixins'
+
+#networks
+  @include mixins.center
+  gap: 1rem
+  margin: 1rem 0
+
+  .social-btn
+    padding: .6rem
+    background-color: variables.$bg-color-secondary
+    border-radius: variables.$card-border-radius
+    color: #333
+    font-size: 2.5rem
+    @include mixins.center
+
+  #linkedin
+    color: #0072b1
+
+  #github
+    color: #858585
+
+  :hover
+    background: variables.$gradient
+    > svg
+        color: variables.$text-color
+
+#portfolioWorks
+  @include mixins.center
+  gap: 1rem
+  margin: 1rem 0
+
+  .work-btn
+    margin-bottom: 1rem
+    padding: .6rem
+    background-color: variables.$bg-color-secondary
+    border-radius: variables.$card-border-radius
+    color: #333
+    cursor: default
+    font-size: 6rem
+    @include mixins.center
+
+  #php
+    color: #0072b1
+
+  #laravel
+    color: #ff2d20
+
+  #react
+    color: #61dafb
+
+  #js
+    color: #efd81d
+
+  #html5
+    color: #e44d26
+
+  #java
+    color: #035bab
+
+  #angular
+    color: #c3002f
+
+  #node
+    color: #7cb73f
+
+  #mysql
+    color: #1a4661
+
+  #python
+    color: #f7c538
+
+  :hover
+    background: variables.$gradient
+    > svg
+        color: variables.$text-color

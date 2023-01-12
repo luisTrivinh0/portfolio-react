@@ -1,0 +1,51 @@
+@use '../variables'
+@use '../mixins'
+
+.projects-container
+  margin-bottom: 1rem
+
+  .projects-grid
+    display: flex
+    flex-wrap: wrap
+    gap: 1.5rem
+
+    .projects-card
+      @include mixins.center
+      text-decoration: none
+      justify-content: start
+      gap: 1rem
+      padding: 1rem
+      border: 1px solid #333
+      width: 45%
+      border-radius: variables.$card-border-radius
+
+      h3
+        color: variables.$text-color
+        margin-bottom: 1rem
+
+      svg
+        font-size: 6rem
+
+    #utility
+      svg
+        color: #0072b1
+
+    #sys_upd8
+      svg
+        color: #ff2d20
+
+    #api_laravel
+      svg
+        color: #ff2d20
+
+    #python-estudos
+      svg
+        color: #f7c538
+
+    #projeto-angular
+      svg
+        color: #c3002f
+
+    #luisTrivinh0
+      svg
+        color: #858585
