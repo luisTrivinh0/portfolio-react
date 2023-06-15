@@ -11,7 +11,6 @@ Você pode acessar a demonstração do meu portfólio neste link: [Portfólio em
 - Exibição do meu currículo
 - Informações sobre minha experiência e habilidades
 - Exemplos de projetos que desenvolvi
-- Formulário de contato
 
 ## Tecnologias utilizadas
 
