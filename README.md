@@ -44,8 +44,10 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 
 Isso iniciará o servidor de desenvolvimento e abrirá o aplicativo no seu navegador padrão. Agora você pode visualizar o seu portfólio em tempo real.
 
-#Contribuição
+# Contribuição
+
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-#Licença
+# Licença
+
 Este projeto está licenciado sob a Licença MIT.
